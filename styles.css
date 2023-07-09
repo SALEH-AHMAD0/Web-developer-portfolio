@@ -9,6 +9,7 @@ body{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    margin-left: 180px;
     
 }
 
@@ -18,7 +19,7 @@ body{
 
 nav ul{
     display: flex;
-    align-items: center;
+  
 }
 
 nav li{
@@ -42,5 +43,234 @@ border-radius: 5px;
 border: 0;
 color: wheat;
 padding: 15px 35px;
+position: relative;
+bottom: 1rem;
 
+}
+
+.navbar{
+    margin-left: 800px;
+     position: relative;
+     bottom: 5rem;
+}
+
+.dev-img{
+    position: relative;
+    bottom: 11rem;
+}
+
+.header-paragraph{
+    position: relative;
+    bottom: 50rem;
+    margin-left: 180px;
+}
+
+.download-btn{
+color: var(--white-color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+background-color: #FD6E0A;
+border: 0;
+border-radius: 5px;
+padding: 15px 10px;
+}
+
+.contact-btn{
+    color: #FD6E0A;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 15px 10px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.img-backround{
+    position: relative;
+    bottom: 60rem;
+    margin-left: 550px;
+}
+
+.img-profile{
+    position: relative;
+    bottom: 103.5rem;
+    margin-left: 700px;
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+.total-Header{
+    background-color: #FFF8F3;
+    width: 1600px;
+    height: 837px;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+
+/* main section style */
+main{
+    background-color: #FFF8F3; 
+    width: 1140px;
+    height: 550px;
+    margin-left: 100px;
+}
+
+/*About section style*/
+
+.about{
+    text-align: center;
+}
+
+.section-tittle{
+    padding: 100px;
+}
+
+.section-description{
+    position: relative;
+    bottom: 5rem;
+    color: #757575;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 3rem;
+    color: #757575;
+}
+
+.what-i-do-total-paragrah{
+    text-align: center;
+    padding:120px;
+}
+
+.i-am-do{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.i-can-do{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    height: 357px;
+    flex-shrink: 0;
+   
+  
+}
+
+.i-ca-do-paragrap{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px;
+}
+
+.img-icon{
+    margin-right:150px;
+    padding: 10px;
+    
+}
+
+.i-can-do-heading{
+    margin-left: 50px;
+}
+
+
+.total-A-summary-of-resume{
+    margin-top: 80px;
+
+}
+.intro-summary{
+   margin-left: 350px;
+}
+
+.my-education{
+    margin-top: 60px;
+}
+
+.margin-inline{
+   border-bottom: 2px solid ;
+   background-color: #D1D1D1;
+   width: 500px;
+}
+
+
+
+.second-class{
+    margin-left: 630px;
+    position: relative;
+    bottom: 38.5rem;
+}
+
+.download-cv{
+   position: relative;
+   bottom: 34rem;
+   margin-left: 500px;
+   width: 200px;
+  height: 64px;
+   flex-shrink: 0;
+  background-color: #FD6E0A;
+  color: #D1D1D1;
+  font-size: 20px;
+  border: 0;
+}
+
+
+.total-footer-div{
+    width: 1300px;
+    height: 780px;
+    background-color: #FFF8F3;
+    margin-top: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-peragrap{
+    padding: 80px;
+}
+
+.footer-paragrap{
+    color:  #474747;
+   
+}
+.your-name{
+    width: 461px;
+    height: 64px;
+}
+
+.your-massage{
+    width: 461px;
+height: 180px;
+
+}
+
+.submit{
+    width: 150px;
+height: 64px;
+border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: #FFF;
+font-size: 20px;
+}
+
+.social-media-icon{
+    margin-top: 40px;
+}
+
+.iconn{
+    background-color: #FFF;
+    margin: 10px;
+    
 }
